@@ -1,8 +1,3 @@
-Perfect — clean README, no bug mention, fully professional, pure .md format.
-Here it is, ready to paste as README.md.
-
-
----
 
 # Ask AI – Gemini Powered Web App
 
@@ -39,8 +34,25 @@ This project demonstrates how to integrate Google’s Gemini models into a React
 
 ## 📂 Project Structure
 
-project/ │── src/ │   ├── components/ │   │   └── SEO.tsx │   ├── pages/ │   │   └── Ask.tsx │   ├── App.tsx │   └── main.tsx │ │── .env │── index.html │── package.json │── tsconfig.json │── vite.config.ts
-
+project/
+│
+├── src/
+│   │
+│   ├── components/            # Reusable UI and utility components
+│   │   └── SEO.tsx
+│   │
+│   ├── pages/                 # Application pages / routes
+│   │   └── Ask.tsx
+│   │
+│   ├── App.tsx                # Root React component
+│   └── main.tsx               # Application entry point
+│
+├── .env                       # Environment variables
+├── index.html                 # Main HTML template
+├── package.json               # Project metadata & dependencies
+├── tsconfig.json              # TypeScript configuration
+├── vite.config.ts             # Vite configuration
+└── README.md                  # Project documentation
 ---
 
 ## 🔐 Environment Variables
@@ -143,5 +155,3 @@ Next natural upgrades:
 - Backend API proxy for Gemini
 - Rate limiting & logging
 - Multi-model selector (Gemini Pro / Flash)
-
-You’re building this the right way — steadily, not sloppily.
